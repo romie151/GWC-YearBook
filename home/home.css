@@ -1,0 +1,103 @@
+/* Navbar */
+#mySidenav a {
+    position: absolute;
+    left: -90px;
+    transition: 0.5s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+}
+
+#mySidenav a:hover {
+    left: 0;
+}
+
+#homeNav {
+    top: 20px;
+    background-color: teal;
+}
+
+#studentsNav {
+    top: 80px;
+    background-color: teal;
+}
+
+#projectsNav {
+    top: 140px;
+    background-color:teal;
+}
+
+#superlativesNav {
+    top: 200px;
+    background-color: teal;
+}
+#letterNav {
+    top: 260px;
+    background-color: teal;
+}
+
+/* Logo */
+#logoContainer {
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#gwc {
+    border: 2px solid black;
+    height: 100px;
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+}
+
+#line{
+    border: 2px solid black;
+    height: 100px;
+    margin: 10px;
+}
+#ms {
+    border: 2px solid black;
+    height: 100px;
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+}
+
+#tile {
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#students {
+    border: 2px solid black;
+    height: 400px;
+    width: 400px;
+    margin: 50px;
+}
+
+#projects {
+    border: 2px solid black;
+    height: 400px;
+    width: 400px;
+    margin: 50px;
+}
+
+#letter {
+    border: 2px solid black;
+    height: 400px;
+    width: 400px;
+    margin: 50px;
+}
+
+#superlatives {
+    border: 2px solid black;
+    height: 400px;
+    width: 400px;
+    margin: 50px;
+}
